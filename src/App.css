@@ -1,0 +1,32 @@
+body {
+  background: #f4f7fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+button {
+  border-radius: 10px !important;
+}
+
+input {
+  border-radius: 10px !important;
+}
+
+.border {
+  background: #ffffff;
+  transition: .3s;
+}
+
+.border:hover {
+  transform: translateY(-3px);
+}

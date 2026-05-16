@@ -1,70 +1,230 @@
-# Getting Started with Create React App
+# 💼 Sistema de Gestão de Folha de Pagamento
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sistema web para gerenciamento de funcionários, folha salarial, relatórios administrativos e controle de RH.
 
-## Available Scripts
+Projeto desenvolvido com foco em organização empresarial, cadastro de colaboradores, cálculo salarial e painel administrativo.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Objetivo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este sistema foi criado para facilitar o gerenciamento interno de empresas, permitindo:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Cadastro de funcionários
+- Controle de salários
+- Relatórios administrativos
+- Gestão da folha de pagamento
+- Upload de documentos
+- Login administrativo
+- Dashboard de acompanhamento
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologias Utilizadas
 
-### `npm run build`
+### Front-end
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Back-end (expansão)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- PHP
+- MySQL
 
-### `npm run eject`
+### Ferramentas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Visual Studio Code
+- Git
+- GitHub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Estrutura do Projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+folha-pagamento/
+│
+├── index.html
+├── dashboard.html
+├── funcionarios.html
+├── FolhaPagamento.html
+├── relatorio.html
+├── administracao.html
+├── enviar.html
+├── login.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── app.js
+│
+└── README.md
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 Funcionalidades
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🏠 Página Inicial
 
-### Code Splitting
+- Apresentação do sistema
+- Acesso rápido
+- Navegação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📊 Dashboard
 
-### Analyzing the Bundle Size
+- Indicadores principais
+- Funcionários
+- Total salarial
+- Departamentos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 👥 Funcionários
 
-### Making a Progressive Web App
+- Cadastro
+- Listagem
+- Atualização
+- Remoção
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 💰 Folha de Pagamento
 
-### Advanced Configuration
+- Cálculo
+- Descontos
+- Salário líquido
+- Benefícios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 📑 Relatórios
 
-### Deployment
+- Funcionários ativos
+- Histórico
+- Folha mensal
+- Exportações
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### ⚙ Administração
 
-### `npm run build` fails to minify
+- Controle de usuários
+- Permissões
+- Configurações
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📤 Enviar Arquivos
+
+- Upload de documentos
+- Contratos
+- Recibos
+- PDF
+
+### 🔐 Login
+
+- Autenticação
+- Segurança
+- Controle de acesso
+
+---
+
+## 🎨 Interface
+
+O sistema possui:
+
+✔ Design responsivo  
+✔ Layout profissional  
+✔ Navegação intuitiva  
+✔ Bootstrap integrado  
+✔ Cards interativos  
+✔ Estrutura corporativa  
+
+---
+
+## 🛠 Como Executar
+
+### 1 Clonar repositório
+
+```bash
+git clone https://github.com/seuusuario/folha-pagamento.git
+```
+
+### 2 Entrar na pasta
+
+```bash
+cd folha-pagamento
+```
+
+### 3 Abrir projeto
+
+Abra no VS Code:
+
+```bash
+code .
+```
+
+### 4 Executar
+
+Abrir:
+
+```bash
+index.html
+```
+
+---
+
+## 📈 Melhorias Futuras
+
+- Integração com banco MySQL
+- Sistema CRUD
+- Login real
+- Geração de PDF
+- Exportar Excel
+- API REST
+- Painel financeiro
+- Gráficos
+- Controle de férias
+- Controle de horas extras
+- Controle de benefícios
+- Assinatura digital
+
+---
+
+## 💡 Possíveis Aplicações
+
+Este sistema pode ser usado para:
+
+- Empresas
+- Escritórios
+- RH
+- Administração
+- Gestão de colaboradores
+- Departamento pessoal
+- Folha corporativa
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+Nine  
+Estudante de Tecnologia  
+Desenvolvedora Full Stack em formação  
+Foco em IA, Web e Sistemas  
+
+---
+
+## ⭐ Projeto Portfólio
+
+Projeto ideal para apresentar em:
+
+- GitHub
+- LinkedIn
+- Portfólio
+- Entrevistas
+- Testes técnicos
+- Estágio
+- Vagas Júnior
+
+---
+
+## 📜 Licença
+
+Projeto livre para estudos e desenvolvimento.
+
+MIT License
